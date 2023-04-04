@@ -27,13 +27,13 @@ def insertion_sort(dictionary):
         dictionary[j + 1] = key
 
 
-def sort(dictionary, sort, choice):
+def sort(dictionary, choice):
     if choice == 'bubble sort':
-        bubble_sort(dictionary, sort)
+        bubble_sort(dictionary)
     elif choice == 'selection sort':
-        selection_sort(dictionary, sort)
+        selection_sort(dictionary)
     elif choice == 'insertion sort':
-        insertion_sort(dictionary, sort)
+        insertion_sort(dictionary)
 
 
 user_input = input('''* bubble sort
