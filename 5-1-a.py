@@ -1,8 +1,8 @@
-def find_it(arr, k):
+def find_it(A, k):
     count = 0
-    for i in arr:
+    for i in A:
         if i == k : count += 1
     return count
 
-arr = [3, 1, 6, 3, 9, -10]
-print(find_it(arr, 3))
+A = [3, 1, 6, 3, 9, -10]
+print(find_it(A, 3))
